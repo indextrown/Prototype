@@ -17,22 +17,24 @@ struct ContentView: View {
             VStack {
                 List {
                     Section(header: Text("애니메이션")) {
-                        NavigationLink(destination: CustomAnimationView()) {
+                        NavigationLink(destination: CustomAnimationView(currentTab: 0)) {
                             Text("애니메이션")
                         }
                     }
                     
                     Section(header: Text("리스트 UI")) {
-                        NavigationLink(destination: CustomAnimationView()) {
-                            Text("List")
-                        }
-                        
-                        NavigationLink(destination: CustomAnimationView()) {
-                            Text("Custom List")
-                        }
-                        
-                        NavigationLink(destination: CustomAnimationView()) {
+                        NavigationLink(destination: ListDetailView(content: "내용")) {
                             Text("List Detail View")
+                        }
+                    }
+                    
+                    Section(header: Text("캘린더")) {
+                        NavigationLink(destination: CalendarView()) {
+                            Text("기본 캘린더")
+                        }
+                        
+                        NavigationLink(destination: CustomCalendar()) {
+                            Text("커스텀 캘린더")
                         }
                     }
                     

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF33E7802D031B2C00A423BB /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33E77F2D031B2C00A423BB /* ListDetailView.swift */; };
+		DF33E7822D031E8E00A423BB /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33E7812D031E8E00A423BB /* CalendarView.swift */; };
+		DF33E7842D0321CC00A423BB /* CustomCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33E7832D0321CC00A423BB /* CustomCalendar.swift */; };
 		DF3E79552D02D802009171FF /* PrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E79542D02D802009171FF /* PrototypeApp.swift */; };
 		DF3E79572D02D802009171FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E79562D02D802009171FF /* ContentView.swift */; };
 		DF3E79592D02D803009171FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3E79582D02D803009171FF /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF33E77F2D031B2C00A423BB /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
+		DF33E7812D031E8E00A423BB /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		DF33E7832D0321CC00A423BB /* CustomCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendar.swift; sourceTree = "<group>"; };
 		DF3E79512D02D802009171FF /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3E79542D02D802009171FF /* PrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeApp.swift; sourceTree = "<group>"; };
 		DF3E79562D02D802009171FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				DF3E79632D02D94A009171FF /* CustomAnimationView.swift */,
+				DF33E77F2D031B2C00A423BB /* ListDetailView.swift */,
+				DF33E7812D031E8E00A423BB /* CalendarView.swift */,
+				DF33E7832D0321CC00A423BB /* CustomCalendar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3E79642D02D94A009171FF /* CustomAnimationView.swift in Sources */,
+				DF33E7802D031B2C00A423BB /* ListDetailView.swift in Sources */,
+				DF33E7842D0321CC00A423BB /* CustomCalendar.swift in Sources */,
 				DF3E79572D02D802009171FF /* ContentView.swift in Sources */,
 				DF3E79552D02D802009171FF /* PrototypeApp.swift in Sources */,
+				DF33E7822D031E8E00A423BB /* CalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
