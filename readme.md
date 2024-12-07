@@ -4,3 +4,9 @@
 :--------------:|:--------------:|:--------------:
 **1. 메인 view** | **2. 애니메이션 view** | **3. 패딩 시각화 뷰** 
 
+
+<img width="320" alt="main_white" src="https://github.com/user-attachments/assets/5d685f5b-bdde-4887-b210-1a367d02a50a">
+
+<img width="320" alt="main_black" src="https://github.com/user-attachments/assets/88c58652-ddf1-4f8a-8444-6fc967dca728">
+
+<img width="320" alt="padding" src="https://github.com/user-attachments/assets/e1bf3954-7eb5-49ca-bbae-48d0ce0afbcb">
