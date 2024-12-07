@@ -46,6 +46,7 @@
 		DF3E79482D02D802009171FF = {
 			isa = PBXGroup;
 			children = (
+				DF9CC8122D04735400E29B3F /* readme.md */,
 				DF3E79532D02D802009171FF /* Prototype */,
 				DF3E79522D02D802009171FF /* Products */,
 			);
@@ -63,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				DF3E79542D02D802009171FF /* PrototypeApp.swift */,
-				DF9CC8122D04735400E29B3F /* readme.md */,
 				DF3E79562D02D802009171FF /* ContentView.swift */,
 				DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */,
 				DF3E79622D02D93F009171FF /* View */,
