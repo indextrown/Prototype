@@ -16,9 +16,13 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 List {
-                    Section(header: Text("애니메이션")) {
+                    Section(header: Text("ui")) {
                         NavigationLink(destination: CustomAnimationView(currentTab: 0)) {
                             Text("애니메이션")
+                        }
+                        
+                        NavigationLink(destination: PaddingView()) {
+                            Text("패딩 시각화")
                         }
                     }
                     

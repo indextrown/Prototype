@@ -15,6 +15,7 @@
 		DF3E79592D02D803009171FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3E79582D02D803009171FF /* Assets.xcassets */; };
 		DF3E795C2D02D803009171FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3E795B2D02D803009171FF /* Preview Assets.xcassets */; };
 		DF3E79642D02D94A009171FF /* CustomAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E79632D02D94A009171FF /* CustomAnimationView.swift */; };
+		DF7817912D0428CF00B705FD /* PaddingVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DF3E79582D02D803009171FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF3E795B2D02D803009171FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF3E79632D02D94A009171FF /* CustomAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationView.swift; sourceTree = "<group>"; };
+		DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingVisualizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				DF3E79542D02D802009171FF /* PrototypeApp.swift */,
 				DF3E79562D02D802009171FF /* ContentView.swift */,
+				DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */,
 				DF3E79622D02D93F009171FF /* View */,
 				DF3E79582D02D803009171FF /* Assets.xcassets */,
 				DF3E795A2D02D803009171FF /* Preview Content */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3E79642D02D94A009171FF /* CustomAnimationView.swift in Sources */,
+				DF7817912D0428CF00B705FD /* PaddingVisualizer.swift in Sources */,
 				DF33E7802D031B2C00A423BB /* ListDetailView.swift in Sources */,
 				DF33E7842D0321CC00A423BB /* CustomCalendar.swift in Sources */,
 				DF3E79572D02D802009171FF /* ContentView.swift in Sources */,

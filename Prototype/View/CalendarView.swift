@@ -16,7 +16,12 @@ struct CalendarView: View {
             ScrollView {
                 VStack {
                     Text("선택한 날짜: \(selectedDate, formatter: dateFormatter)")
-                        .padding()
+                        //.padding()
+                        .visualizePadding(top: 10, leading: 10, bottom: 10, trailing: 10, backgroundColor: .yellow, borderColor: .blue, showLabels: true)
+                        .padding(.top, 50)
+                        .padding(.bottom, 50)
+                    
+                    Spacer()
                     
                     DatePicker(
                         "Start Date",
@@ -29,11 +34,12 @@ struct CalendarView: View {
                     .frame(width: geometry.size.width * 0.9, height: geometry.size.height * 0.5)
                     .clipped()
                     .frame(maxWidth: .infinity) // 부모 VStack 내에서 중앙 정렬
-                    
-                    Spacer()
+                    .visualizePadding(top: 10, bottom: 40,backgroundColor: .yellow, borderColor: .blue)
+                    //Spacer()
                 }
                 .frame(maxWidth: .infinity, alignment: .center) // GeometryReader 내에서 중앙 정렬
             }
+            
         }
 
     }
