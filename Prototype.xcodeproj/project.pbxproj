@@ -29,6 +29,7 @@
 		DF3E795B2D02D803009171FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF3E79632D02D94A009171FF /* CustomAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationView.swift; sourceTree = "<group>"; };
 		DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingVisualizer.swift; sourceTree = "<group>"; };
+		DF9CC8122D04735400E29B3F /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				DF3E79542D02D802009171FF /* PrototypeApp.swift */,
+				DF9CC8122D04735400E29B3F /* readme.md */,
 				DF3E79562D02D802009171FF /* ContentView.swift */,
 				DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */,
 				DF3E79622D02D93F009171FF /* View */,
