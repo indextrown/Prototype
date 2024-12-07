@@ -17,27 +17,27 @@ struct ContentView: View {
             VStack {
                 List {
                     Section(header: Text("ui")) {
-                        NavigationLink(destination: CustomAnimationView(currentTab: 0)) {
+                        NavigationLink(destination: CustomAnimationView(currentTab: 0).navigationBarTitleDisplayMode(.inline)) {
                             Text("애니메이션")
                         }
                         
-                        NavigationLink(destination: PaddingView()) {
+                        NavigationLink(destination: PaddingView().navigationBarTitleDisplayMode(.inline)) {
                             Text("패딩 시각화")
                         }
                     }
                     
                     Section(header: Text("리스트 UI")) {
-                        NavigationLink(destination: ListDetailView(content: "내용")) {
+                        NavigationLink(destination: ListDetailView(content: "내용").navigationBarTitleDisplayMode(.inline)) {
                             Text("List Detail View")
                         }
                     }
                     
                     Section(header: Text("캘린더")) {
-                        NavigationLink(destination: CalendarView()) {
+                        NavigationLink(destination: CalendarView().navigationBarTitleDisplayMode(.inline)) {
                             Text("기본 캘린더")
                         }
                         
-                        NavigationLink(destination: CustomCalendar()) {
+                        NavigationLink(destination: CustomCalendar().navigationBarTitleDisplayMode(.inline)) {
                             Text("커스텀 캘린더")
                         }
                     }
