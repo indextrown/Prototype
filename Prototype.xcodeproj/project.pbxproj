@@ -16,6 +16,8 @@
 		DF3E795C2D02D803009171FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3E795B2D02D803009171FF /* Preview Assets.xcassets */; };
 		DF3E79642D02D94A009171FF /* CustomAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E79632D02D94A009171FF /* CustomAnimationView.swift */; };
 		DF7817912D0428CF00B705FD /* PaddingVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */; };
+		DFAC1E702D054FCD006A6DDA /* DoubleSliderBackgroundScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC1E6F2D054FCD006A6DDA /* DoubleSliderBackgroundScrollView.swift */; };
+		DFAC1E732D05500B006A6DDA /* DoubleSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC1E722D05500B006A6DDA /* DoubleSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DF3E79632D02D94A009171FF /* CustomAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationView.swift; sourceTree = "<group>"; };
 		DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingVisualizer.swift; sourceTree = "<group>"; };
 		DF9CC8122D04735400E29B3F /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		DFAC1E6F2D054FCD006A6DDA /* DoubleSliderBackgroundScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleSliderBackgroundScrollView.swift; sourceTree = "<group>"; };
+		DFAC1E722D05500B006A6DDA /* DoubleSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,6 @@
 			children = (
 				DF3E79542D02D802009171FF /* PrototypeApp.swift */,
 				DF3E79562D02D802009171FF /* ContentView.swift */,
-				DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */,
 				DF3E79622D02D93F009171FF /* View */,
 				DF3E79582D02D803009171FF /* Assets.xcassets */,
 				DF3E795A2D02D803009171FF /* Preview Content */,
@@ -84,12 +87,47 @@
 		DF3E79622D02D93F009171FF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DFAC1E6E2D054F83006A6DDA /* Calendar */,
+				DFAC1E6D2D054F78006A6DDA /* List */,
+				DFAC1E6C2D054F5C006A6DDA /* Animation */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFAC1E6C2D054F5C006A6DDA /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC1E712D054FE8006A6DDA /* DoubleSlider */,
+				DF7817902D0428CF00B705FD /* PaddingVisualizer.swift */,
 				DF3E79632D02D94A009171FF /* CustomAnimationView.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		DFAC1E6D2D054F78006A6DDA /* List */ = {
+			isa = PBXGroup;
+			children = (
 				DF33E77F2D031B2C00A423BB /* ListDetailView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		DFAC1E6E2D054F83006A6DDA /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
 				DF33E7812D031E8E00A423BB /* CalendarView.swift */,
 				DF33E7832D0321CC00A423BB /* CustomCalendar.swift */,
 			);
-			path = View;
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		DFAC1E712D054FE8006A6DDA /* DoubleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC1E722D05500B006A6DDA /* DoubleSliderView.swift */,
+				DFAC1E6F2D054FCD006A6DDA /* DoubleSliderBackgroundScrollView.swift */,
+			);
+			path = DoubleSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +201,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3E79642D02D94A009171FF /* CustomAnimationView.swift in Sources */,
+				DFAC1E702D054FCD006A6DDA /* DoubleSliderBackgroundScrollView.swift in Sources */,
 				DF7817912D0428CF00B705FD /* PaddingVisualizer.swift in Sources */,
 				DF33E7802D031B2C00A423BB /* ListDetailView.swift in Sources */,
 				DF33E7842D0321CC00A423BB /* CustomCalendar.swift in Sources */,
 				DF3E79572D02D802009171FF /* ContentView.swift in Sources */,
+				DFAC1E732D05500B006A6DDA /* DoubleSliderView.swift in Sources */,
 				DF3E79552D02D802009171FF /* PrototypeApp.swift in Sources */,
 				DF33E7822D031E8E00A423BB /* CalendarView.swift in Sources */,
 			);

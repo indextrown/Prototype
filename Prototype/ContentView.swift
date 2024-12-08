@@ -17,12 +17,22 @@ struct ContentView: View {
             VStack {
                 List {
                     Section(header: Text("ui")) {
-                        NavigationLink(destination: CustomAnimationView(currentTab: 0).navigationBarTitleDisplayMode(.inline)) {
+                        NavigationLink(destination: CustomAnimationView(currentTab: 0)
+                            .navigationBarTitleDisplayMode(.inline)
+                        ) {
                             Text("애니메이션")
                         }
                         
-                        NavigationLink(destination: PaddingView().navigationBarTitleDisplayMode(.inline)) {
-                            Text("패딩 시각화")
+                        NavigationLink(destination: PaddingView()
+                            .navigationBarTitleDisplayMode(.inline)
+                        ) {
+                            Text("패딩 디버깅")
+                        }
+                        
+                        NavigationLink(destination: DoubleSliderView()
+                            .navigationBarTitleDisplayMode(.inline)
+                        ) {
+                            Text("Doubls Slider")
                         }
                     }
                     
@@ -33,11 +43,16 @@ struct ContentView: View {
                     }
                     
                     Section(header: Text("캘린더")) {
-                        NavigationLink(destination: CalendarView().navigationBarTitleDisplayMode(.inline)) {
+                        NavigationLink(destination: CalendarView()
+                            .navigationBarTitleDisplayMode(.inline)
+                        ) {
                             Text("기본 캘린더")
                         }
                         
-                        NavigationLink(destination: CustomCalendar().navigationBarTitleDisplayMode(.inline)) {
+                        NavigationLink(destination: CustomCalendar()
+                            .navigationBarTitleDisplayMode(.inline)
+                            // .navigationBarHidden(true) // 네비게이션 바 숨김
+                        ) {
                             Text("커스텀 캘린더")
                         }
                     }
